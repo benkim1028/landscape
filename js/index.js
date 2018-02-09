@@ -7,6 +7,7 @@ import {BrowserRouter, Route, IndexRoute, browserHistory, Switch} from "react-ro
 import App from './components/app';
 import Gallery from './components/gallerySection'
 import Images from './components/testing'
+import Test from './components/test'
 
 
 // store
@@ -25,9 +26,10 @@ ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter history={browserHistory}>
             <Switch>
-            <Route exact path="/" component={App} />
-            <Route path="/gallery" component={Gallery} />
+                <Route exact path="/" component={App} />
+                <Route path="/gallery" component={Gallery} />
                 <Route path="/images" component={Images}/>
+                <Route path="/test" component={Test}/>
             </Switch>
         </BrowserRouter>
     </Provider>

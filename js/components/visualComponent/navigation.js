@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {BrouserRouter, Link, Match, Miss} from 'react-router-dom'
-import {Navbar, Nav, NavItem, MenuItem, NavDropdown} from 'react-bootstrap';
 import "../../../css/grayscale.min.css";
 import "../../../css/bootstrap.min.css";
 

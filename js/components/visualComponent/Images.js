@@ -4,7 +4,6 @@ import sha1 from 'sha1';
 import superagent from 'superagent';
 import "../../../css/grayscale.min.css";
 import "../../../css/bootstrap.min.css";
-var cloudinary = require('cloudinary-core');
 
 class Images extends Component {
 
@@ -12,7 +11,6 @@ class Images extends Component {
         super();
         this.state = {
             images: [],
-            // testing: cloudinary.v2.api.resources({type: 'upload'}, function(error, result){})
         }
     }
 
